@@ -1,0 +1,21 @@
+---
+title: "test2"
+author: "Maddie"
+date: "November 14, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(readr)
+oil_spills <- read_csv("~/github/smartcharge.ex/oil_spills.csv")
+View(oil_spills)
+
+
+filter(oil_spills)
+```
+
